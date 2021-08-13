@@ -143,12 +143,24 @@ img {
 
 .header-adress-list {
   display: flex;
+  justify-content: center;
   margin-left: auto;
 }
-
-.header-adress-mail {
+.header-adress-image {
+  align-items: center;
+}
+.header-adress-mail:not(:last-child) {
   margin-right: 50px;
 }
+
+/* .header-adress-mail {
+  display: flex;
+  align-items: center;
+}
+
+.header-adress-link {
+  align-items: center;
+} */
 
 .logo {
   font-family: "Raleway";
@@ -265,12 +277,9 @@ img {
   display: block;
   width: 270px;
   height: 120px;
-  background-image: linear-gradient(
-      rgba(245, 244, 250, 0.5),
-      rgba(245, 244, 250, 0.5)
-    ),
-    url("../images/main/antenna.svg");
-  background-size: 270px, 70px;
+  background-image: url("../images/main/antenna.svg");
+  background-color: #f5f4fa;
+  background-size: 70px, 70px;
   background-repeat: no-repeat;
   background-position: center center;
   margin-bottom: 30px;
@@ -281,12 +290,9 @@ img {
   display: block;
   width: 270px;
   height: 120px;
-  background-image: linear-gradient(
-      rgba(245, 244, 250, 0.5),
-      rgba(245, 244, 250, 0.5)
-    ),
-    url("../images/main/clock.svg");
-  background-size: 270px, 70px;
+  background-image: url("../images/main/clock.svg");
+  background-color: #f5f4fa;
+  background-size: 70px, 70px;
   background-repeat: no-repeat;
   background-position: center center;
   margin-bottom: 30px;
@@ -297,12 +303,9 @@ img {
   display: block;
   width: 270px;
   height: 120px;
-  background-image: linear-gradient(
-      rgba(245, 244, 250, 0.5),
-      rgba(245, 244, 250, 0.5)
-    ),
-    url("../images/main/diagram.svg");
-  background-size: 270px, 70px;
+  background-image: url("../images/main/diagram.svg");
+  background-color: #f5f4fa;
+  background-size: 70px, 70px;
   background-repeat: no-repeat;
   background-position: center center;
   margin-bottom: 30px;
@@ -313,12 +316,9 @@ img {
   display: block;
   width: 270px;
   height: 120px;
-  background-image: linear-gradient(
-      rgba(245, 244, 250, 0.5),
-      rgba(245, 244, 250, 0.5)
-    ),
-    url("../images/main/astronaut.svg");
-  background-size: 270px, 70px;
+  background-image: url("../images/main/astronaut.svg");
+  background-color: #f5f4fa;
+  background-size: 70px, 70px;
   background-repeat: no-repeat;
   background-position: center center;
   margin-bottom: 30px;
@@ -409,6 +409,7 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: #ffffff;
+  margin-right: 10px;
 }
 
 .social-link-img {
@@ -442,6 +443,10 @@ img {
   fill: #afb1b8;
 }
 
+.clients-item {
+  margin-right: 30px;
+}
+
 .clients-link {
   display: flex;
   justify-content: center;
@@ -450,7 +455,6 @@ img {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  margin-right: 30px;
 }
 
 .clients-link-img {
@@ -492,13 +496,14 @@ img {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  background-color: #f5f4fa;
   border-color: #f5f4fa;
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: var(--accent-color);
-  color: var(--secondary-text-color);
+  color: #f5f4fa;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -522,6 +527,10 @@ img {
   min-width: 370px;
   min-height: 404px;
   background: var(--primary-bacground-color);
+}
+
+.portfolio-card-link {
+  display: block;
 }
 
 .portfolio-card-link:hover,
@@ -603,6 +612,7 @@ img {
 
 .footer-wrapper {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-social-links-container {
@@ -631,7 +641,8 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: rgb(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-right: 10px;
 }
 
 .footer-social-link-img {
