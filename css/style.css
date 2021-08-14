@@ -152,14 +152,10 @@ img {
   margin-right: 50px;
 }
 
-/* .header-adress-mail {
+.header-adress {
   display: flex;
   align-items: center;
 }
-
-.header-adress-link {
-  align-items: center;
-} */
 
 .logo {
   font-family: "Raleway";
