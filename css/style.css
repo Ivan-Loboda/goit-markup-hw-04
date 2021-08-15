@@ -407,6 +407,9 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: #ffffff;
+}
+
+.social-item:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -442,7 +445,7 @@ img {
   fill: #afb1b8;
 }
 
-.clients-item {
+.clients-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -633,6 +636,10 @@ img {
   fill: #afb1b8;
 }
 
+.footer-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .footer-social-link {
   display: flex;
   justify-content: center;
@@ -641,7 +648,6 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-right: 10px;
 }
 
 .footer-social-link-img {
