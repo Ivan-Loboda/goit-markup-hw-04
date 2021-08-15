@@ -140,7 +140,8 @@ img {
   margin-left: auto;
 }
 .header-adress-image {
-  align-items: center;
+  margin-right: 10px;
+  fill: currentColor;
 }
 .header-adress-mail:not(:last-child) {
   margin-right: 50px;
@@ -175,11 +176,6 @@ img {
 
 .webstudio {
   color: var(--accent-color);
-}
-
-.header-adress-image {
-  margin-right: 10px;
-  fill: currentColor;
 }
 
 /* ===HERO=== */
