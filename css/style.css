@@ -225,6 +225,7 @@ img {
   color: var(--secondary-text-color);
   padding: 10px 32px;
   min-width: 200px;
+  border: none;
 }
 
 .button-order:hover,
@@ -495,7 +496,7 @@ img {
   line-height: 1.62;
   text-align: center;
   background-color: #f5f4fa;
-  border-color: #f5f4fa;
+  border: none;
 }
 
 .portfolio-button:hover,
